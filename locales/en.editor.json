@@ -1,0 +1,187 @@
+{
+    "language-name": "english",
+    "toolbar": {
+        "run": "Run all code (ctrl+shift+enter)",
+        "upload": "upload to gallery",
+        "clear": "clear all",
+        "shuffle": "show random sketch",
+        "random": "make random change",
+        "show-info": "show info window",
+        "hide-info": "hide info window",
+
+        "unlink": "toggle livestream",
+        "push": "push visual",
+        "lcast": "livecast",
+        "livecast": "toggle livecast settings",
+        "codepreview": "code preview",
+
+        "toggle": "toggle settings",
+        "stop": "toggle livestream"
+    },
+    "sketches": {
+        "tab-search": "search visual",
+        "tab-fileadd": "add visual",
+        "search":{
+            "header": "visuals",
+            "edit": "edit",
+            "delete": "delete"
+        },
+        "fileadd": {
+            "header": "Save visual",
+            "filedownload": "download sketch",
+            "fileupload": "upload sketch",
+            "control": {
+                "add": "save visual",
+                "reset": "cancel"
+            },
+            "screenshot": {
+                "take": "take screenshot",
+                "helper": "screenshot"
+            },
+            "title": {
+                "helper": "title",
+                "placeholder": "enter title"
+            },
+            "description": {
+                "helper": "description",
+                "placeholder": "enter description"
+            },
+            "usage": {
+                "helper": "usage"
+            }
+        },
+        "usage": {
+            "helper": "usage"
+        },
+        "modal-show": "toggle storage settings"
+
+    },
+
+    "livecast": {
+        "notif": {
+            "status": {
+                "connecting": "connecting",
+                "disconnect": "disconnected",
+                "livestream": "livestreaming",
+                "prevcoding": "live preview",
+                "livecoding": "live coding"
+            },
+            "title": {
+                "livestream-unlink": "livestream disconnect"
+            }
+        },
+        "icons": {
+            "profile": "profile",
+            "feeds": "feeds",
+            "chat": "chat",
+            "code": "code",
+            "push": "push visual",
+            "clnk": "livecast link",
+            "modal-close": "close"
+        },
+        "profile": {
+            "header": "Livecast profile",
+            "image": {"helper": "profile image"},
+            "uploadimg": "upload image",
+            "identifiant": {
+                "helper": "identifiant",
+                "placeholder": "enter your identifiant"
+            },
+            "pseudo": {
+                "helper": "pseudo",
+                "placeholder": "enter your pseudo"
+            },
+            "feed": {
+                "image": {"helper": "feed image"},
+                "desc": {
+                    "helper": "feed description",
+                    "placeholder": "enter your feed description"
+                },
+                "title": {
+                    "helper": "feed title",
+                    "placeholder": "enter your feed title"
+                },
+                "upsert": "update",
+                "cancel": "cancel"
+            },
+            "upsert": "update",
+            "cancel": "cancel"
+        },
+        "feed": {
+            "header": "Livecast feeds",
+            "join": "join",
+            "leave": "leave",
+            "tab": {
+                "status": {
+                    "connected": "connected",
+                    "joining": "joining",
+                    "disconnected": "disconnected",
+                    "unreachable": "unreachable"
+                }
+            },
+            "liveview": {
+                "button": "live view"
+            }
+        },
+        "chat": {
+            "header": "Livecast chatrooms",
+            "message": {
+                "placeholder": "enter your message"
+            },
+            "send": "send",
+            "tabs": {
+                "avatar": "avatar",
+                "broadchat": {
+                    "title": "general chat",
+                    "name": "general"
+                }
+            }
+        },
+        "code": {
+            "header": "Livecast  code",
+            "stream": "stream",
+            "preview": "preview"
+        },
+
+        "tabs": {
+            "profile": "profile",
+            "feed": "feed"
+        },
+        "sharelink": {
+            "copied": "copied livestream link"
+        }
+    },
+
+    "info": {
+        "title": "𝄢 lodovisual",
+        "subtitle": "distributed live coding visuals",
+        "description": "lodovisual is a platform for live coding visuals, in which each connected browser window can be used as a node of a modular and distributed video synthesizer.",
+        "get-started-title": "To get started:",
+        "get-started-list": [
+            "Close this window",
+            "Change some numbers",
+            "Type Ctrl + Shift + Enter"
+        ],
+        "description-detailed": "Built using Socket.io, WebRTC WebGL and hydra to connect browser/device/person to output a video signal or stream, and receive and modify streams from other browsers/devices/people. The API is inspired by analog modular synthesis, in which multiple visual sources (oscillators, cameras, application windows, other connected windows) can be transformed, modulated, and composited via combining sequences of functions.",
+        "uses": "Features:",
+        "uses-list": [
+            "Written in javascript and compatible with other javascript libraries",
+            "Available as a platform as well as a set of standalone modules",
+            "Cross-platform and requires no installation (runs in the browser)",
+            "Also available as a package for live coding from within atom text editor",
+            "Experimental and forever evolving !!"
+        ],
+        "author": "Extended by <a {{author}}>lodovisual.</a> from <a {{origin}}>Hydra</a>",
+        "more-info": "For more information and instructions, see: <a {{docs}}>the online documentation</a>, <a {{functions}}>a list of hydra functions</a>",
+        "more-info-forums": "",
+        "support": "If you enjoy this, please consider  <a {{open-collective}} >supporting Hydra development <3 </a>."
+    },
+
+  "prompt": {
+    "show": {
+      "confirmation": {
+        "share-sketch": "Pressing OK will share this \"visual\" to \n{{- twitter}}.\n\nInclure votre nom ou pseudo (facultatif) :"
+      }
+    }
+  }
+}

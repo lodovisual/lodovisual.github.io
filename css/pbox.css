@@ -1,0 +1,285 @@
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*
+body {
+  background: #C5DDEB;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  padding: 40px 0;
+  color: white;
+}
+*/
+
+.modal-container .modal-pbox {
+  overflow-y: scroll;
+}
+
+.pbox-container.container {
+  margin: 0 auto;
+  width: 750px;
+  min-height: 471px;
+  /*background: #444753;*/
+  border-radius: 5px;
+}
+
+.pbox-container-header {
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  /*background: #3c4141;*/
+  padding: 10px;
+}
+
+.pbox-container-header .pbox-about {
+  /*text-align: right;*/
+}
+
+.pbox-container-header .pbox-about h6 {
+  margin: 0px;
+  /*float: left;*/
+}
+
+.pbox-tabs {
+  width: 260px;
+  float: left;
+}
+.pbox-tabs .search {
+  padding: 20px;
+}
+.pbox-tabs input {
+  border-radius: 3px;
+  border: none;
+  padding: 14px;
+  color: white;
+  background: #6A6C75;
+  width: 90%;
+  font-size: 14px;
+}
+.pbox-tabs .fa-search {
+  position: relative;
+  left: -25px;
+}
+.pbox-tabs ul {
+  padding: 20px;
+  overflow-y: scroll;
+  height: 375px;
+  /*height: 445px;*/
+  /*height: 250px;*/
+  /*height: 770px;*/
+}
+.pbox-tabs ul li {
+  /*padding-bottom: 20px;*/
+  list-style: none;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 20px;
+}
+.pbox-tabs ul li:hover {
+  background: #3c4141;
+}
+.pbox-tabs ul li.active {
+  background: #3c4141;
+}
+.pbox-tabs img {
+  float: left;
+  /*height: 42px;*/
+  margin: 15px 5px 0px 0px;
+  border-radius: 5px;
+  /*display: none;*/
+  width: 32px;
+  height: 32px;
+}
+.pbox-tabs .about {
+  float: left;
+  margin-top: 8px;
+}
+.pbox-tabs .about {
+  padding-left: 8px;
+}
+.pbox-tabs .status {
+  color: #92959E;
+  clear: both;
+}
+
+.pbox-tabs .status i {
+  font-size: 10px;
+}
+
+.pbox {
+  width: 490px;
+  float: left;
+  /*background: #F2F5F8;*/
+  /*border-top-right-radius: 5px;*/
+  border-bottom-right-radius: 5px;
+  /*color: #434651;*/
+  color: white;
+}
+.pbox .pbox-header {
+  padding: 20px;
+  border-bottom: 2px solid white;
+}
+.pbox .pbox-header img {
+  float: left;
+}
+.pbox .pbox-header .pbox-about {
+  float: left;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+.pbox .pbox-header .pbox-with {
+  font-weight: bold;
+  font-size: 16px;
+}
+.pbox .pbox-header .pbox-num-messages {
+  color: #92959E;
+}
+.pbox .pbox-header .fa-star {
+  float: right;
+  color: #D8DADF;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.pbox .pbox-history {
+  padding: 15px 15px 10px;
+  /*padding: 30px 30px 20px;*/
+  border-bottom: 2px solid white;
+  overflow-y: scroll;
+  /*height: 275px;*/
+  /*height: 150px;*/
+  /*height: 575px;*/
+}
+
+
+.pbox .pbox-history ul li {
+  list-style: none;
+}
+
+.pbox .pbox-history .message-data {
+  margin-bottom: 15px;
+}
+.pbox .pbox-history .message-data-time {
+  color: #a8aab1;
+  padding-left: 6px;
+}
+.pbox .pbox-history .message {
+  color: white;
+  padding: 18px 20px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  width: 90%;
+  position: relative;
+}
+.pbox .pbox-history .message:after {
+  bottom: 100%;
+  left: 7%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #86BB71;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.pbox .pbox-history .my-message {
+  background: #86BB71;
+}
+.pbox .pbox-history .other-message {
+  background: #94C2ED;
+}
+.pbox .pbox-history .other-message:after {
+  border-bottom-color: #94C2ED;
+  left: 93%;
+}
+.pbox .pbox-message {
+  padding: 15px;
+}
+.pbox .pbox-message textarea {
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  font: 14px/22px "Lato", Arial, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  resize: none;
+  background: white;
+}
+.pbox .pbox-message .fa-file-o, .pbox .pbox-message .fa-file-image-o {
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+}
+.pbox .pbox-message button {
+  float: right;
+  color: #94C2ED;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F2F5F8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 225px;
+  word-break: break-all;
+}
+.pbox .pbox-message button:hover {
+  color: #75b1e8;
+}
+
+.online, .offline, .me {
+  margin-right: 3px;
+  font-size: 10px;
+}
+
+.online {
+  color: #86BB71;
+}
+
+.offline {
+  color: #E38968;
+}
+
+.me {
+  color: #94C2ED;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right-important {
+  float: right !important;
+}
+
+.float-left-important {
+  float: left !important;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

@@ -1,0 +1,193 @@
+{
+  "language-name": "français",
+  "info": {
+    "title": "𝄢 lodovisual",
+    "subtitle": "codage en direct de flux \"visuals\" distribuer",
+    "description": "lodovisual est une plate-forme de codage distribuer de \"visuals\", dans laquelle chaque fenêtre de navigateur connectée peut être utilisée comme nœud d'éditions video.",
+    "get-started-title": "Pour commencer:",
+    "get-started-list": [
+      "Ferme cette fenêtre",
+      "Modifier quelques chiffres",
+      "Tapez Ctrl + Maj + Entrée"
+    ],
+    "description-detailed": "Construit autour de Socket.io, WebRTC, WebGL, hydra ainsi à chaque navigateur/appareil/personne connecté d'émettre un signal ou un flux vidéo, et de recevoir et de modifier les flux d'autres navigateurs/appareils/personnes. L'API s'inspire de la synthèse modulaire analogique, dans laquelle plusieurs sources visuelles (oscillateurs, caméras, fenêtres d'application, autres fenêtres connectées) peuvent être transformées, modulées et composées en combinant des séquences de fonctions.",
+    "uses": "Caractéristiques:",
+    "uses-list": [
+      "Écrit en javascript et compatible avec d'autres bibliothèques javascript",
+      "Disponible en tant que plateforme",
+      "Cross-plateforme et ne nécessite aucune installation (s'exécute dans le navigateur)",
+      "Expérimental et en constante évolution !!"
+    ],
+    "author": "Étendu par <a {{author}}>lodovisual.</a> A partir de <a {{origin}}>Hydra</a>",
+    "more-info": "Pour plus d'informations et d'instructions, consultez: <a {{docs}}>la documentation en ligne</a> et <a {{functions}}>une liste des fonctions de hydra</a>",
+    "more-info-forums": "",
+    "support": "Si vous aimez, pensez à <a {{open-collective}}>soutenir le développement de Hydra <3 </a>."
+  },
+
+  "toolbar": {
+    "run": "Exécuter tout le code (ctrl+shift+enter)",
+    "upload": "diffuser sur Twitter",
+    "clear": "tout effacer",
+    "shuffle": "afficher un \"visual\" aléatoire",
+    "random": "faire un changement aléatoire",
+    "show-info": "afficher la fenêtre d'informations",
+    "hide-info": "masquer la fenêtre d'informations",
+
+    "unlink": "activer/désactiver le flux en direct",
+    "push": "diffuser le \"visual\"",
+    "lcast": "diffusion en direct",
+    "livecast": "activer/désactiver les paramètres de diffusion en direct",
+    "codepreview": "aperçu du code",
+
+    "toggle": "activer/désactiver les paramètres",
+    "stop": "désactiver le flux en direct"
+  },
+
+  "sketches": {
+    "tab-search": "recherche \"visual\"",
+    "tab-fileadd": "enregistrer un \"visual\"",
+    "search":{
+      "header": "visuals",
+      "edit": "éditer",
+      "delete": "supprimer"
+    },
+
+    "fileadd": {
+      "header": "Enregistrer un \"visual\"",
+      "filedownload": "télécharger le \"visual\"",
+      "fileupload": "ajouter un \"visual\"",
+      "control": {
+          "add": "enregistrer le \"visual\"",
+          "reset": "annuler"
+      },
+      "screenshot": {
+          "take": "prendre une capture d'écran",
+          "helper": "capture d'écran"
+      },
+      "title": {
+          "helper": "titre",
+          "placeholder": "entrez le titre"
+      },
+      "description": {
+          "helper": "description",
+          "placeholder": "entrez la description"
+      },
+      "usage": {
+          "helper": "utilisation"
+      }
+    },
+    "usage": {
+        "helper": "utilisation"
+    },
+    "modal-show": "activer/désactiver les paramètres de stockage"
+  },
+
+  "livecast": {
+    "notif": {
+      "status": {
+          "connecting": "connexion",
+          "disconnect": "déconnecté",
+          "livestream": "diffusion en direct",
+          "prevcoding": "aperçu en direct",
+          "livecoding": "codage en direct"
+      },
+      "title": {
+          "livestream-unlink": "déconnexion du flux"
+      }
+    },
+    "icons": {
+        "profile": "profil",
+        "feeds": "flux",
+        "chat": "chat",
+        "code": "code",
+        "push": "diffuser \"visual\"",
+        "clnk": "lien de diffusion en direct",
+        "modal-close": "fermer"
+    },
+    "profile": {
+        "header": "Profil de diffusion",
+        "image": {"helper": "image de profil"},
+        "uploadimg": "ajouter une image",
+        "identifiant": {
+            "helper": "identifiant",
+            "placeholder": "entrez votre identifiant"
+        },
+        "tabs": {
+          "profile": "compte utilisateur",
+          "feed": "flux de diffusion"
+        },
+        "pseudo": {
+            "helper": "pseudo",
+            "placeholder": "entrez votre pseudo"
+        },
+        "feed": {
+            "image": {"helper": "image du flux"},
+            "desc": {
+                "helper": "description du flux",
+                "placeholder": "entrez la description de votre flux"
+            },
+            "title": {
+                "helper": "titre du flux",
+                "placeholder": "entrez le titre de votre flux"
+            },
+            "upsert": "mettre à jour",
+            "cancel": "annuler"
+        },
+        "upsert": "mettre à jour",
+        "cancel": "annuler"
+    },
+    "feed": {
+        "header": "Flux de diffusion",
+        "join": "rejoindre",
+        "leave": "quittez",
+        "tab": {
+          "status": {
+            "connected": "connecté",
+            "joining": "rejoindre",
+            "disconnected": "déconnecté",
+            "unreachable": "innaccessible"
+          }
+        },
+        "liveview": {
+          "button": "voir le direct"
+        }
+    },
+    "chat": {
+      "header": "Salons de discussion",
+      "message": {
+        "placeholder": "entrez votre message"
+      },
+      "send": "envoyer",
+      "tabs": {
+        "avatar": "avatar",
+        "broadchat": {
+          "title": "chat général",
+          "name": "général"
+        }
+      }
+    },
+    "code": {
+      "header": "Code diffuser",
+      "stream": "flux",
+      "preview": "aperçu"
+    },
+
+    "tabs": {
+      "profile": "profil",
+      "feed": "flux"
+    },
+    "sharelink": {
+      "copied": "lien de diffusion en direct copier"
+    }
+  },
+
+
+  "prompt": {
+    "show": {
+      "confirmation": {
+        "share-sketch": "Appuyer sur OK partagera ce \"visual\" sur \n{{- twitter}}.\n\nInclure votre nom ou pseudo (facultatif) :"
+      }
+    }
+  }
+
+}
